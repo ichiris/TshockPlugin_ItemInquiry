@@ -1,0 +1,5 @@
+E:\CshapeFile\itemindex\itemindex\obj\Debug\net6.0\itemindex.csproj.AssemblyReference.cache
+E:\CshapeFile\itemindex\itemindex\obj\Debug\net6.0\itemindex.GeneratedMSBuildEditorConfig.editorconfig
+E:\CshapeFile\itemindex\itemindex\obj\Debug\net6.0\itemindex.AssemblyInfoInputs.cache
+E:\CshapeFile\itemindex\itemindex\obj\Debug\net6.0\itemindex.AssemblyInfo.cs
+E:\CshapeFile\itemindex\itemindex\obj\Debug\net6.0\itemindex.csproj.CoreCompileInputs.cache
