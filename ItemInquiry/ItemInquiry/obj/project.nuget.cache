@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AwsbYJuM4Z0=",
+  "dgSpecHash": "3bBaBxw5UYw=",
   "success": true,
-  "projectFilePath": "E:\\CshapeFile\\ItemInquiry - 副本\\ItemInquiry\\ItemInquiry.csproj",
+  "projectFilePath": "E:\\CshapeFile\\ii\\TshockPlugin_ItemInquiry\\ItemInquiry\\ItemInquiry\\ItemInquiry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",

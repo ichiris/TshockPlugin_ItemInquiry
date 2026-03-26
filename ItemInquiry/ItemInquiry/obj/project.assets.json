@@ -4790,11 +4790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CshapeFile\\ItemInquiry - 副本\\ItemInquiry\\ItemInquiry.csproj",
+      "projectUniqueName": "E:\\CshapeFile\\ii\\TshockPlugin_ItemInquiry\\ItemInquiry\\ItemInquiry\\ItemInquiry.csproj",
       "projectName": "ItemInquiry",
-      "projectPath": "E:\\CshapeFile\\ItemInquiry - 副本\\ItemInquiry\\ItemInquiry.csproj",
+      "projectPath": "E:\\CshapeFile\\ii\\TshockPlugin_ItemInquiry\\ItemInquiry\\ItemInquiry\\ItemInquiry.csproj",
       "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "E:\\CshapeFile\\ItemInquiry - 副本\\ItemInquiry\\obj\\",
+      "outputPath": "E:\\CshapeFile\\ii\\TshockPlugin_ItemInquiry\\ItemInquiry\\ItemInquiry\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
