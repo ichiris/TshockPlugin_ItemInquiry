@@ -31,6 +31,11 @@ public class Plugin : TerrariaPlugin
         Commands.ChatCommands.Add(new Command("iteminquiry", OnCommand,"ii"));
     }
 
+    private bool Enable = true;
+    private bool Allow_Nolimit = true;
+    private int Max_distance = 100;
+    
+    
     private void OnCommand(CommandArgs args)
     {
         if(args.Parameters.Count == 0) {
@@ -39,6 +44,7 @@ public class Plugin : TerrariaPlugin
 
         else if (args.Parameters.Count == 2) {
             if (args.Parameters[1].ToLower() == "nolimit" || args.Parameters[1].ToLower() == "nl") {
+                if (args.Parameters[0]=="none")args.Parameters[0]="";
                 chest_finder(args.Parameters[0],args.Player,true,args);
             }
             else {
@@ -47,6 +53,7 @@ public class Plugin : TerrariaPlugin
         }
 
         else if (args.Parameters.Count == 1) {
+            if (args.Parameters[0]=="none")args.Parameters[0]="";
             chest_finder(args.Parameters[0],args.Player,false,args);
         }
         else {
@@ -63,7 +70,7 @@ public class Plugin : TerrariaPlugin
             var cst = chests[i];
             
             if (cst == null) continue;
-            if ((!(Math.Abs(cst.x - plr.TileX) < 100 && Math.Abs(cst.y - plr.TileY) < 100)) && !nolimit)continue;
+            if ((!(Math.Abs(cst.x - plr.TileX) < this.Max_distance && Math.Abs(cst.y - plr.TileY) < Max_distance)) && !nolimit)continue;
             
             int[] finded = new int[Main.chest.Length];
             
@@ -93,23 +100,23 @@ public class Plugin : TerrariaPlugin
     {
         try {
             
-            //int p = Projectile.NewProjectile(
-            //     Projectile.GetNoneSource(),         
-            //     (x * 16 + 8),          
-            //     (y * 16 + 8),     
-            //     0.0f,                                 
-            //     -8f,                               
-            //     167,                       
-            //     0,                                  
-            //     0.0f
-            // );
-            //Main.projectile[p].Kill();
+            int p = Projectile.NewProjectile(
+                 Projectile.GetNoneSource(),         
+                 (x * 16 + 16),          
+                 (y * 16 + 16),     
+                 0.0f,                                 
+                 -8f,                               
+                 167,                       
+                 0,                                  
+                 0f
+             );
+            Main.projectile[p].Kill();
             
             //var posi = new Vector2(x * 16 + 8,y * 16 + 8);
-            var posi = new Vector2(x, y);
-            var col = new Color(127, 255, 212);
-            var dust = Dust.NewDustDirect(posi, 64, 64, 267, 0.1f, -5f, 0, col,5);
-            Dust.UpdateDust();
+            // var posi = new Vector2(x, y);
+            // var col = new Color(127, 255, 212);
+            // var dust = Dust.NewDustDirect(posi, 64, 64, 267, 0.1f, -5f, 0, col,5);
+            // Dust.UpdateDust();
         }
         catch (Exception e) {
             Console.WriteLine(e);

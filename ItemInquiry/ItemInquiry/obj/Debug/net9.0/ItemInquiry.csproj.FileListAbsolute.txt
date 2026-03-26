@@ -10,3 +10,16 @@ E:\CshapeFile\ItemInquiry\ItemInquiry\obj\Debug\net9.0\ItemInquiry.dll
 E:\CshapeFile\ItemInquiry\ItemInquiry\obj\Debug\net9.0\refint\ItemInquiry.dll
 E:\CshapeFile\ItemInquiry\ItemInquiry\obj\Debug\net9.0\ItemInquiry.pdb
 E:\CshapeFile\ItemInquiry\ItemInquiry\obj\Debug\net9.0\ref\ItemInquiry.dll
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\bin\Debug\net9.0\HttpServer.dll
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\bin\Debug\net9.0\ItemInquiry.deps.json
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\bin\Debug\net9.0\ItemInquiry.dll
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\bin\Debug\net9.0\ItemInquiry.pdb
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.csproj.AssemblyReference.cache
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.GeneratedMSBuildEditorConfig.editorconfig
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.AssemblyInfoInputs.cache
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.AssemblyInfo.cs
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.csproj.CoreCompileInputs.cache
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.dll
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\refint\ItemInquiry.dll
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ItemInquiry.pdb
+E:\CshapeFile\ItemInquiry - 副本\ItemInquiry\obj\Debug\net9.0\ref\ItemInquiry.dll

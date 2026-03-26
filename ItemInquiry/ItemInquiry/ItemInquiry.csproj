@@ -11,9 +11,7 @@
     <ItemGroup>
         <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-6qmf-mmc7-6c2p" />
         <PackageReference Include="NPinyin.Core" Version="3.0.0" />
-        <PackageReference Include="TShock" Version="5.2.3">
-            <ExcludeAssets>contentFiles</ExcludeAssets>
-        </PackageReference>
+        <PackageReference Include="TShock" Version="6.1.0" />
     </ItemGroup>
 
 </Project>
