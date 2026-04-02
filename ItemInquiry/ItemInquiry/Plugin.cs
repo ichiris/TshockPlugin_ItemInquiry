@@ -20,7 +20,7 @@ public class Plugin : TerrariaPlugin
     public override string Name => "ItemInquiry";
     public override string Author => "ichiris";
     public override string Description => "快速查找物品存放的箱子位置";
-    public override Version Version => new Version(0, 2);
+    public override Version Version => new Version(0, 3);
 
     public Plugin(Main game) : base(game)
     {
