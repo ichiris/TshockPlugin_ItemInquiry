@@ -164,8 +164,7 @@ public class Plugin : TerrariaPlugin
         if (finded_item != "") return finded_item;
         return null;
     }
-
-
+    
     private static string posi_convert(Vector2 Posi)
     {
         int x = (int)Posi.X;
@@ -186,7 +185,6 @@ public class Plugin : TerrariaPlugin
     {
         return string.Concat(input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(c => char.ToLower(c[0])));
     }
-
     
     protected override void Dispose(bool disposing)
     {
